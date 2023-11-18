@@ -1,0 +1,71 @@
+.head {
+    width: 100%;
+    height: 8.5vh;
+    position: relative;
+    background-color: rgb(43, 101, 82);
+    display: flex;
+    justify-content: flex-end;
+    gap: 90%;
+    align-items: center;
+    h1 {
+        font-size: 42px;
+        font-family: 'Jura', sans-serif;
+        color: azure;
+        white-space: nowrap;
+    }
+}
+.header{
+    width: 100%;
+    &__logo{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        &__img{
+            width: 1000px;
+            height: 478px;
+            margin: 35px ;
+            max-width: 100%;
+        }
+    }
+    &__line{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(43, 101, 82);
+    }
+    &__texts{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        p{
+         width: 700px;
+         font-size: 32px;
+         font-family: 'Jura', sans-serif;
+         margin: 75px 55px;
+         margin-bottom: 0px;
+         flex: 1;
+         
+        }
+        &__img{
+            width: 251px;
+            height: 375px;
+            margin: 95px 230px;
+        }
+    }
+    &__lines{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(43, 101, 82);
+    }
+    &__footers{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        &__img{
+            height: 702px;
+            width: 1190px;
+            max-width: 100%;
+            margin: 35px ;
+        }
+    }
+
+}

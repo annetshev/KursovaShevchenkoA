@@ -1,0 +1,71 @@
+.head {
+  width: 100%;
+  height: 8.5vh;
+  position: relative;
+  background-color: rgb(43, 101, 82);
+  display: flex;
+  justify-content: flex-end;
+  gap: 30%;
+  align-items: center;
+}
+.head h1 {
+  font-size: 42px;
+  font-family: "Jura", sans-serif;
+  color: azure;
+  white-space: nowrap;
+}
+
+.header {
+  width: 100%;
+}
+.header__information {
+  width: 100%;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.header__information__s {
+  margin: 80px 110px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.header__information__s__img {
+  height: 259px;
+  width: 397px;
+  max-width: 100%;
+}
+.header__information__s a {
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+}
+.header__lin {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(43, 101, 82);
+}
+.header__in {
+  width: 100%;
+  height: 450px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.header__in__s {
+  margin: 80px 110px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.header__in__s__img {
+  height: 259px;
+  width: 397px;
+  max-width: 100%;
+}
+.header__in__s a {
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+}/*# sourceMappingURL=WORLDpage.css.map */

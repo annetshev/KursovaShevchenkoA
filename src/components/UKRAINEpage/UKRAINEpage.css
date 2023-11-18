@@ -1,0 +1,70 @@
+.head {
+  width: 100%;
+  height: 8.5vh;
+  position: relative;
+  background-color: rgb(43, 101, 82);
+  display: flex;
+  justify-content: flex-end;
+  gap: 90%;
+  align-items: center;
+}
+.head h1 {
+  font-size: 42px;
+  font-family: "Jura", sans-serif;
+  color: azure;
+  white-space: nowrap;
+}
+
+.header {
+  width: 100%;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo__img {
+  width: 1000px;
+  height: 478px;
+  margin: 35px;
+  max-width: 100%;
+}
+.header__line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(43, 101, 82);
+}
+.header__texts {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.header__texts p {
+  width: 700px;
+  font-size: 32px;
+  font-family: "Jura", sans-serif;
+  margin: 75px 55px;
+  margin-bottom: 0px;
+  flex: 1;
+}
+.header__texts__img {
+  width: 251px;
+  height: 375px;
+  margin: 95px 230px;
+}
+.header__lines {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(43, 101, 82);
+}
+.header__footers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__footers__img {
+  height: 702px;
+  width: 1190px;
+  max-width: 100%;
+  margin: 35px;
+}/*# sourceMappingURL=UKRAINEpage.css.map */

@@ -1,0 +1,190 @@
+.main{
+  width: 100%;
+  height: 13vh;
+  position: relative;
+  background-color: rgb(43, 101, 82);
+
+  &__logo{
+    display: flex;
+    span{
+      color: azure;
+      font-size: 36px;
+      font-family: 'Jura', sans-serif; // Замініть 'Jura' на правильне ім'я шрифту
+      margin: 20px 95px;
+      cursor: pointer; // Змінити вказівник при наведенні
+      transition: background-color 0.3s ease;
+      
+    }
+  }
+  &__page{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    &__img{
+      width: 563px;
+      height: 401px;
+      margin: 120px 77px;
+    }
+    &__text{
+      margin: 120px;
+      width: 650px;
+      height: 380px;
+     p{
+      font-size: 38px;
+      font-family: 'Jura', sans-serif;
+      
+     }
+    }
+  }
+  &__line{
+    width: 90%;
+    height: 5px;
+    background-color: rgb(43, 101, 82);
+    margin-left: 7%;
+  }
+  &__photo{
+    display: flex;
+        justify-content: center; 
+        align-items: center;
+    height: 1300px;
+    &__air{
+      height: 680px;
+      width: 1141px;
+      margin: 50px 168px;
+    }
+  }
+
+  &__lines{
+    width: 100%;
+    height: 15px;
+    &__lines{
+      background-color: rgb(43, 101, 82);
+      height: 5px;
+      width: 610px;
+      margin-left: 5.5%;
+    }
+    &__linese{
+      background-color: rgb(43, 101, 82);
+      height: 5px;
+      width: 610px;
+     
+      margin: -5px 55%  ;
+    }
+
+  }
+  &__info{
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+
+    &__f{
+      margin: 15px 110px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      
+
+      &__img{
+        height: 316px;
+        width: 535px;
+      }
+      a{
+       padding: 10px;
+       font-size: 18px;
+       font-family: 'Jura', sans-serif;
+       font-weight: bold;
+       text-decoration: none;
+        color: #000;
+      }
+      &__line{
+        background-color: rgb(43, 101, 82);
+        height: 5px;
+        width: 610px;
+        margin-left: 5.5%;
+      }
+      &__lines{
+        background-color: rgb(43, 101, 82);
+        height: 5px;
+        width: 610px;
+        margin: -3px 8.5%  ;
+      }
+    }
+  }
+  &__footer{
+    width: 100%;
+    height: 769px;
+    
+    
+      &__line{
+      width: 100%;
+      height: 5px;
+      background-color: rgb(43, 101, 82);
+      }
+      &__block{
+        width: 668px;
+        height: 770px;
+        &__img{
+          width: 666px;
+          height: 770px;
+         
+        }
+ 
+      }
+
+      &__vertical{   
+        background-color: rgb(43, 101, 82);
+        align-items: center;
+        margin: -770px 700px; 
+        width: 5px;
+        height: 760px;
+        } 
+      &__list{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin:80px 730px ;
+        a{
+        
+        font-size: 28px;
+        font-family: 'Jura', sans-serif;
+        font-weight: bold;
+        display: block;  
+        margin-bottom: 80px;
+        text-decoration: none;
+        color: #000;
+        
+
+        
+        }
+      }
+      &__verticales{   
+        background-color: rgb(43, 101, 82);
+        align-items: center;
+        margin: -785px 1095px; 
+        width: 5px;
+        height: 760px;
+      }
+      &__listus{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin:93px 1110px ;
+       a{
+        font-size: 28px;
+        font-family: 'Jura', sans-serif;
+        font-weight: bold;
+        display: block;  
+        margin-bottom: 60px;
+        text-decoration: none;
+        color: black;
+        
+      }
+    }
+      
+
+         
+     
+  }
+ 
+}

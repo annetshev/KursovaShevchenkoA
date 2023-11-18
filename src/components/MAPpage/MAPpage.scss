@@ -1,0 +1,72 @@
+.head {
+    width: 100%;
+    height: 8.5vh;
+    position: relative;
+    background-color: rgb(43, 101, 82);
+    display: flex;
+    justify-content: flex-end;
+    gap: 40%;
+    align-items: center;
+    h1 {
+        font-size: 42px;
+        font-family: 'Jura', sans-serif;
+        color: azure;
+        white-space: nowrap;
+    }
+}
+
+.header {
+    width: 100%;
+    &__slider {
+        width: 100%;
+        height: 450px;
+        display: flex;
+
+        &__img {
+            height: 394px;
+            width: 535px;
+            margin: 35px;
+        }
+
+        p {
+            width: 800px;
+            font-size: 32px;
+            font-family: 'Jura', sans-serif;
+            margin: 35px;
+            margin-bottom: 0px;
+            flex: 1;
+
+        }
+    }
+
+    &__map {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 42px;
+            font-family: 'Jura', sans-serif;
+            align-items: center;
+            margin: 15px 650px;
+
+        }
+
+        p {
+            font-size: 36px;
+            font-family: 'Jura', sans-serif;
+            align-items: center;
+            margin: 0px 600px;
+            width: 600px;
+
+
+        }
+    }
+}
+
+.header__map_content{
+    width: 100vw;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

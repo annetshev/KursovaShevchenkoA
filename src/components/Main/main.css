@@ -1,0 +1,166 @@
+.main {
+  width: 100%;
+  height: 13vh;
+  position: relative;
+  background-color: rgb(43, 101, 82);
+}
+.main__logo {
+  display: flex;
+}
+.main__logo span {
+  color: azure;
+  font-size: 36px;
+  font-family: "Jura", sans-serif;
+  margin: 20px 95px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.main__page {
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.main__page__img {
+  width: 563px;
+  height: 401px;
+  margin: 120px 77px;
+}
+.main__page__text {
+  margin: 120px;
+  width: 650px;
+  height: 380px;
+}
+.main__page__text p {
+  font-size: 38px;
+  font-family: "Jura", sans-serif;
+}
+.main__line {
+  width: 90%;
+  height: 5px;
+  background-color: rgb(43, 101, 82);
+  margin-left: 7%;
+}
+.main__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1300px;
+}
+.main__photo__air {
+  height: 680px;
+  width: 1141px;
+  margin: 50px 168px;
+}
+.main__lines {
+  width: 100%;
+  height: 15px;
+}
+.main__lines__lines {
+  background-color: rgb(43, 101, 82);
+  height: 5px;
+  width: 610px;
+  margin-left: 5.5%;
+}
+.main__lines__linese {
+  background-color: rgb(43, 101, 82);
+  height: 5px;
+  width: 610px;
+  margin: -5px 55%;
+}
+.main__info {
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.main__info__f {
+  margin: 15px 110px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.main__info__f__img {
+  height: 316px;
+  width: 535px;
+}
+.main__info__f a {
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+.main__info__f__line {
+  background-color: rgb(43, 101, 82);
+  height: 5px;
+  width: 610px;
+  margin-left: 5.5%;
+}
+.main__info__f__lines {
+  background-color: rgb(43, 101, 82);
+  height: 5px;
+  width: 610px;
+  margin: -3px 8.5%;
+}
+.main__footer {
+  width: 100%;
+  height: 769px;
+}
+.main__footer__line {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(43, 101, 82);
+}
+.main__footer__block {
+  width: 668px;
+  height: 770px;
+}
+.main__footer__block__img {
+  width: 666px;
+  height: 770px;
+}
+.main__footer__vertical {
+  background-color: rgb(43, 101, 82);
+  align-items: center;
+  margin: -770px 700px;
+  width: 5px;
+  height: 760px;
+}
+.main__footer__list {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 80px 730px;
+}
+.main__footer__list a {
+  font-size: 28px;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: #000;
+}
+.main__footer__verticales {
+  background-color: rgb(43, 101, 82);
+  align-items: center;
+  margin: -785px 1095px;
+  width: 5px;
+  height: 760px;
+}
+.main__footer__listus {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 93px 1110px;
+}
+.main__footer__listus a {
+  font-size: 28px;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
