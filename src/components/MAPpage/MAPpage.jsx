@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import './MAPpage.css'
 import headerPhotoslider from '../../images/364050079_956306475594059_8642838032968070612_n.jpg'
 import headerPhotoslider1 from '../../images/363490537_303544418833851_4477903371299850581_n.jpg'
@@ -103,6 +103,7 @@ const MAPpage = () => {
                 <p>Тримає оборону:<br /> {remainingTime.days} днів, {remainingTime.hours} годин, {remainingTime.minutes} хвилин</p>
                 <div className="header__map_content">
                 <iframe
+                 title="deepstate"
                  src="https://deepstatemap.live/#6/49.438/32.053"
                  width="900"
                  height="600"

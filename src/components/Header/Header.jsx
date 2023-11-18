@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import headerPhoto from '../../images/coldiers 1.png'
 import mark from '../../images/headermark.png'
 import flag from '../../images/headerflag.png'

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './UKRAINEpage.css'
 import headerPhoto from '../../images/5475-1-scaled.jpg'
 import headertexts from '../../images/Lesser_Coat_of_Arms_of_Ukraine.svg.png'

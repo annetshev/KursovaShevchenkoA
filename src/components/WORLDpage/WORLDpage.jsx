@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './WORLDpage.css'
 import headerPhoto from '../../images/world-wallpaper-3.jpg'
 import headerPhotoInform from '../../images/231103-WA00061-1.jpg'

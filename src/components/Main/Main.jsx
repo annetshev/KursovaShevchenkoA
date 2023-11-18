@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import './main.css'
 import mainPhoto from '../../images/Rectangle 7.png'
 import mainPhotoAir from '../../images/Rectangle 10.png'
