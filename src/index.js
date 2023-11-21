@@ -7,6 +7,7 @@ import WorldPage from './pages/WorldPage';
 import UkrainePage from './pages/UkrainePage';
 import ZSUPage from './pages/ZSUPage';
 import MapPage from './pages/MapPage';
+import NewsPage from './pages/NewsPage.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
       <Route path='/ukraine' element={<UkrainePage/>}/>
       <Route path='/zsu' element={<ZSUPage/>}/>
       <Route path='/map' element={<MapPage/>}/>
+      <Route path='/news' element={<NewsPage/>}/>
     </Routes>
   </BrowserRouter>
 );

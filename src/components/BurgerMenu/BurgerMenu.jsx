@@ -34,6 +34,7 @@ const BurgerMenu = ({mark = null}) => {
           <Link to="/zsu">ЗСУ</Link>
           <Link to='/map'>Карта бойових дій</Link>
           <Link to='/world'>Світ</Link>
+          <Link to='/news'>Новини</Link>
         </div>
       </div>
     </>

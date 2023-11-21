@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './ZSUpage.css'
 import BurgerMenu from '../BurgerMenu/BurgerMenu'
-import headerPhoto from '../../images/tank.jpg'
 import textPhoto from'../../images/kon.jpeg'
 import textPhotoFoot from '../../images/okop.jpg'
 import mark from '../../images/headermark.png'
@@ -9,14 +8,6 @@ import headerphotoslider from '../../images/tank.jpg'
 import headerphotoslider1 from '../../images/shine.jpg'
 import headerphotoslider2 from '../../images/ship.jpg'
 import headerphotoslider3 from '../../images/bpla.jpg'
-
-
-
-
-
-
-
-
 const ZSUpage = () => {
     let slideIndex = 0;
     useEffect(() => {
